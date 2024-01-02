@@ -1,0 +1,178 @@
+.item{
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .navbar{ 
+   background-color: #f16c60;
+    
+   
+  }
+
+  .py-4 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    
+}
+  
+
+.btn{
+  background-color: #ff6f61
+} 
+
+.btn:hover{
+  background-color: aquamarine;
+}
+
+.space{
+
+ justify-content: center;
+}
+
+
+
+
+#navhover {
+  opacity: 1;
+}
+
+#navhover:hover {
+  opacity: 0.6;
+  transition: 0.2s all ease-in-out; 
+}
+
+
+body {
+	background: linear-gradient(-45deg, #ee8b6d, #e675a0, #90e1ff, #8beed7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.fobg{
+   background: linear-gradient(rgba(6, 3, 21, 0.25), hsla(255, 15%, 5%, 0.45)), url(./assets/footer-2.jpg) center center no-repeat; decoding = "sync" opacity: 0;
+   background-size : cover;">
+}
+
+
+.color{
+  color: white;
+}
+
+.color:hover{
+  color: aqua;
+}
+
+
+.form-control {
+  display: block;
+  width: 20%;
+ 
+
+}
+
+
+.gaap{
+  padding-top: 10px;
+}
+.vid{
+  border: 5px solid pink;
+  border-radius: 20px;
+  
+}
+.vi{
+  border-radius: 30px;
+  
+ 
+}
+
+
+
+
+
+.form-control {
+  width: 100%;
+  max-width: 200px; /* Optional: Set a maximum width if needed */
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+/* Styles for small screens */
+.form-control {
+/* Adjust styles for smaller screens */
+}
+}
+
+
+
+
+
+
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      margin-bottom: 20px;
+      
+      font-family: 'Abril Fatface', serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
